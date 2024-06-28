@@ -1,6 +1,6 @@
 <h1>Instruction for using this App</h1>
 
-<ul>
+<ul type="circle">
 <li> My project on PHP which is LARAVEL framwork. </li>
 <li> You can put this file in XAMPP HTDOCS (Apache) folder and open in any code editor then go in terminal and run the command which is below given.</li>
 <li> Create a database in phpmyadmin which name is ( laravel_auth ) user name is (root) password is nothing to set in .env file in laravel application folder.</li>
