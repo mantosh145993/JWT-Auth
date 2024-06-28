@@ -1,12 +1,12 @@
 <h1>Instruction for using this App</h1>
 
 <ul>
-<li>1 . My project on PHP which is LARAVEL framwork. </li>
-2 . You can put this file in XAMPP HTDOCS (Apache) folder and open in any code editor then go in terminal and run the command which is below given.
-3 . Create a database in phpmyadmin which name is ( laravel_auth ) user name is (root) password is nothing to set in .env file in laravel application folder.
-4 . Run the command for create table in database ( - php artisan migrate -  , then for run appliation - php artisan serve - ).
-5 . After all setup and run the above command then go in POSTMAN for API testing with created endpoints.
-6 . For sign up hit this end ponts - http://localhost:8000/api/register - and body is in Jshon , Do all in Post MAN which is given bellow
+<li> My project on PHP which is LARAVEL framwork. </li>
+<li> You can put this file in XAMPP HTDOCS (Apache) folder and open in any code editor then go in terminal and run the command which is below given.</li>
+<li> Create a database in phpmyadmin which name is ( laravel_auth ) user name is (root) password is nothing to set in .env file in laravel application folder.</li>
+<li> Run the command for create table in database ( - php artisan migrate -  , then for run appliation - php artisan serve - ).</li>
+<li>After all setup and run the above command then go in POSTMAN for API testing with created endpoints.</li>
+<li> For sign up hit this end ponts - http://localhost:8000/api/register - and body is in Jshon , Do all in Post MAN which is given bellow
 
 {
     "name": "John Doe",
@@ -14,19 +14,19 @@
     "password": "password",
     "password_confirmation": "password"
 }
-
-7. Get JWT Token from this end points - http://localhost:8000/api/login -
+</li>
+<li> Get JWT Token from this end points - http://localhost:8000/api/login -
 
 {
     "email": "john@example.com",
     "password": "password"
 }
+</li>
+<li> Log in with this end point - http://localhost:8000/api/user_auth - and put JWT token which is given from login end points.</li>
 
-8 . Log in with this end point - http://localhost:8000/api/user_auth - and put JWT token which is given from login end points.
+<li> For referesh token with this end ponts - http://localhost:8000/api/refresh -</li>
 
-9 . For referesh token with this end ponts - http://localhost:8000/api/refresh -
-
-10 . For log out with this end point - http://localhost:8000/api/logout - .
+<li> For log out with this end point - http://localhost:8000/api/logout - .</li>
 
 </ul>
 
