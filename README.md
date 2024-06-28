@@ -1,3 +1,36 @@
+<h1>Instruction for using this App</h1>
+
+<p>
+    1 . My project on PHP which is LARAVEL framwork. 
+2 . You can put this file in XAMPP HTDOCS (Apache) folder and open in any code editor then go in terminal and run the command which is below given.
+3 . Create a database in phpmyadmin which name is ( laravel_auth ) user name is (root) password is nothing to set in .env file in laravel application folder.
+4 . Run the command for create table in database ( - php artisan migrate -  , then for run appliation - php artisan serve - ).
+5 . After all setup and run the above command then go in POSTMAN for API testing with created endpoints.
+6 . For sign up hit this end ponts - http://localhost:8000/api/register - and body is in Jshon , Do all in Post MAN which is given bellow
+
+{
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "password",
+    "password_confirmation": "password"
+}
+
+7. Get JWT Token from this end points - http://localhost:8000/api/login -
+
+{
+    "email": "john@example.com",
+    "password": "password"
+}
+
+8 . Log in with this end point - http://localhost:8000/api/user_auth - and put JWT token which is given from login end points.
+
+9 . For referesh token with this end ponts - http://localhost:8000/api/refresh -
+
+10 . For log out with this end point - http://localhost:8000/api/logout - .
+
+</p>
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
