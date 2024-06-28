@@ -1,7 +1,7 @@
 <h1>Instruction for using this App</h1>
 
-<p>
-    1 . My project on PHP which is LARAVEL framwork. 
+<ul>
+<li>1 . My project on PHP which is LARAVEL framwork. </li>
 2 . You can put this file in XAMPP HTDOCS (Apache) folder and open in any code editor then go in terminal and run the command which is below given.
 3 . Create a database in phpmyadmin which name is ( laravel_auth ) user name is (root) password is nothing to set in .env file in laravel application folder.
 4 . Run the command for create table in database ( - php artisan migrate -  , then for run appliation - php artisan serve - ).
@@ -28,7 +28,7 @@
 
 10 . For log out with this end point - http://localhost:8000/api/logout - .
 
-</p>
+</ul>
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
